@@ -58,7 +58,7 @@ const Navigator = () => {
           navbar
         >
           <NavItem onClick={handleCloseCollapse}>
-            <ScrollchorItem to="https://minhdnguyen.web.app/" className="nav-link">
+            <ScrollchorItem to="#" className="nav-link">
               HOME
             </ScrollchorItem>
           </NavItem>
