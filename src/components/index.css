@@ -298,10 +298,6 @@ video {
   display: inline-block;
   position: absolute;
   overflow: hidden;
-  /* top: 0px;
-  left: 0px;
-  z-index: -3; */
-  /* position: fixed; */
   opacity: 1;
   transition: opacity 0s ease 0s, all 2s ease-in-out 0s;
 }
@@ -322,13 +318,8 @@ video {
 .dashboard-person-img {
   width: 20em;
   height: 5em;
-  /* padding: 1px; */
   margin: 1em auto;
-  /* border: 1px solid #ddd;
-  border-radius: 50%;
-  background: #ffffff; */
   position: relative;
-  
 }
 /*************************************************************************/
 
@@ -341,32 +332,11 @@ video {
   margin-top: 3em;
   padding-bottom: 2em;
   background: #4684b8;
-  /* position: relative;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size:cover;
-  background-image: url('../images/ic_skill_banner.png');
-  overflow: hidden;   */
 }
-/* .skill-banner-overlay {
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-  z-index: 1;
-  background: grey;
-  opacity: 0.95;
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-} */
 .skill-banner-img {
   width: 20em;
   height: 5em;
-  /* padding: 1px; */
   margin-top: 1.5em ;
-  /* margin-bottom: 5em; */
-  /* border: 1px solid #ddd;
-  border-radius: 50%;
-  background: #ffffff; */
   position: relative;
   
 }
@@ -636,12 +606,6 @@ video {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* position: relative;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size:contain;
-  background-image: url('../images/ic_blog_banner.png');
-  overflow: hidden;   */
 }
 .blog-banner-img {
   width: 100vw;
@@ -751,7 +715,6 @@ video {
   z-index: 1;
   background: grey;
   opacity: 0.5;
-  /* background-image: url('../images/fullstack_poster.png'); */
   background-size: cover;
   filter: blur(8px);
   -webkit-filter: blur(8px);
@@ -783,8 +746,6 @@ video {
   width: 100%;
   border-radius: 5px;
   position: relative;
-  /* background-color: rgba(255,255,255,0.3); */
-  /* transition: 0.3s all; */
 } 
 .form-control {
   width: 100%;
@@ -1030,12 +991,6 @@ video {
 /****************************************************************************************/
 
 @media only screen and (max-width: 1000px) {
-  /* .desktop-parent-container {
-    display: none;
-  } */
-  /* .dashboard-down-arrow-container {
-    display: none;
-  } */
   .resume-container {
     width: 70%;
     height: 5%;

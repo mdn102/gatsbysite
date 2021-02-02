@@ -6,7 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Skill = () => {
 
   return (
-    <section id="services" className="services py-5 max-wrapper">
+    <section id="skill" className="section services py-5 max-wrapper">
+      <h2 className="text-center">SKILL</h2>
       <div className="container">
         <div className="row flex-wrap-container">
           <div className="col-lg-4 text-center">

@@ -9,7 +9,8 @@ import webIcon from '../images/icon_web_site.png';
 
 const Project = () => {
   return (
-    <section id="projects" className="projects-section">
+    <section id="project" className="project section">
+      <h2 className="text-center">PROJECT</h2>
       <div className="projects-grid">
         <div className="card">
           <div className="image">

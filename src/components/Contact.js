@@ -5,16 +5,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Contact = () => {
 
-  // componentDidMount() {
-
-  // }
-
   return (
-    <div className='contacts-parent-container'>
-      <div className='contacts-content-container'>
-        <a href="callto: live:nguyendm77_1" target="_blank" className={'resume-contact'} rel="no-opener no-referrer">Talk with me</a>
+    <section id="contact" className="section">
+      <h2 className="text-center">CONTACT</h2>
+      <div className='contacts-parent-container'>
+        <div className='contacts-content-container'>
+          <a href="callto: live:nguyendm77_1" target="_blank" className={'resume-contact'} rel="no-opener no-referrer">Talk with me</a>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

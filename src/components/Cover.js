@@ -6,10 +6,6 @@ import poster from "../images/fullstack_poster.png";
 
 class Cover extends React.Component {
 
-  // constructor(props) {
-  //   super(props);
-  // }
-
   state = {
     loading: true
   };

@@ -16,11 +16,11 @@
 }
 
 .white-background {
-  background-color: white !important;
+  background-color: #ffffff !important;
 }
 
 .white-font {
-  color: #0a2cf0 !important;
+  color: #ffffff !important;
 }
 
 /* Using bootstrap's navbar default blue color: #337ab7 */
