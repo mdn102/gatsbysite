@@ -45,8 +45,8 @@ const Navigator = () => {
 
   return (
 
-    <Navbar className="text-info" color="auto" style={{ backgroundColor: 'black', padding: '10px' }} fixed={"top"} expand="md">
-      <NavbarBrand href="https://www.minhdnguyen.com/"><img className='logo' style={{ width: 70, height: 70 }} alt='' src='https://res.cloudinary.com/djhte2ard/image/upload/c_thumb,w_200,g_face/v1603238705/logo_tfsahk.png'></img></NavbarBrand>
+    <Navbar className="text-info" color="auto" style={{ backgroundColor: 'black', padding: '0.5em' }} fixed={"top"} expand="md">
+      <NavbarBrand href="https://www.minhdnguyen.com/"><img className='logo' style={{ width: 60, height: 60 }} alt='' src='https://res.cloudinary.com/djhte2ard/image/upload/c_thumb,w_200,g_face/v1603238705/logo_tfsahk.png'></img></NavbarBrand>
       <NavbarToggler onClick={() => setIsOpen(!isOpen)}>
         <i className={`fa fa-navicon ${fontColor}`} />
       </NavbarToggler>

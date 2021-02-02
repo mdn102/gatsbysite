@@ -2,7 +2,7 @@
   background-color: transparent;
   font-size: 16px;
   font-weight: 500;
-  padding: 10px;
+  padding: 1em;
   transition: all 1s ease;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
@@ -66,6 +66,7 @@ button:focus {
     margin-right: -20px;
   }
   .nav-link {
-    padding: 10px 15px !important;
+    padding: 0.5em 1em !important;
+    margin-right: 1em;
   }
 }
