@@ -1,13 +1,13 @@
 import React from 'react';
-// import "./App.css";
-// import "./index.css";
+import "./App.css";
+import "./index.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import email from './images/ic_email.png';
-import twitter from "./images/ic_twitter.png";
-import github from "./images/ic_github.png";
-import linkedin from "./images/ic_linkedin.png";
-import resume from './images/ic_resume.png';
+import email from "../images/ic_email.png";
+import twitter from "../images/ic_twitter.png";
+import github from "../images/ic_github.png";
+import linkedin from "../images/ic_linkedin.png";
+import resume from "../images/ic_resume.png";
 
 const Footer = () => {
   return (

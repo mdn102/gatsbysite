@@ -1,13 +1,13 @@
 import React from 'react';
-// import './App.css';
-// import "./index.css";
+import "./App.css";
+import "./index.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Contact = () => {
 
-  componentDidMount() {
+  // componentDidMount() {
 
-  }
+  // }
 
   return (
     <div className='contacts-parent-container'>

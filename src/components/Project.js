@@ -1,11 +1,11 @@
 import React from 'react';
-// import "./App.css";
-// import "./index.css";
+import "./App.css";
+import "./index.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-tiny-fab/dist/styles.css';
 
-import githubIcon from './images/icon_github_white.png';
-import webIcon from './images/icon_web_site.png';
+import githubIcon from '../images/icon_github_white.png';
+import webIcon from '../images/icon_web_site.png';
 
 const Project = () => {
   return (

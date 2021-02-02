@@ -1,14 +1,9 @@
 import React from 'react';
-// import "./App.css";
-// import "./index.css";
+import "./App.css";
+import "./index.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Skill = () => {
-
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
 
   return (
     <section id="services" className="services py-5 max-wrapper">
