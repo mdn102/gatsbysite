@@ -8,7 +8,7 @@ import github from "../images/ic_github.png";
 import linkedin from "../images/ic_linkedin.png";
 import email from '../images/ic_email.png';
 import resume from '../images/ic_resume.png';
-
+import pdf from "../static/resume.pdf";
 
 
 const Profile = () => {
@@ -21,7 +21,7 @@ const Profile = () => {
           <div className={'dashboard-profile-img-container'}>
             <img src={profile} className={'dashboard-profile-img'} alt="" />
             <div className={'social-profile-container'}>
-              <a href="./resume.pdf" target="_blank" rel="noopener noreferrer"><img src={resume} className={'contact-social-img'} alt="" /></a>
+              <a href={pdf} target="_blank" rel="noopener noreferrer"><img src={resume} className={'contact-social-img'} alt="" /></a>
               <a href="mailto:nguyendm77@gmail.com" target="_blank" rel="noopener noreferrer"><img src={email} className={'contact-social-img'} alt="" /></a>
               <a href="https://www.linkedin.com/in/minh-nguyen-292b4976/" target="_blank" rel="noopener noreferrer"><img src={linkedin} className={'contact-social-img'} alt="" /></a>
               <a href="https://github.com/minhd-nguyen" target="_blank" rel="noopener noreferrer"><img src={github} className={'contact-social-img'} alt="" /></a>

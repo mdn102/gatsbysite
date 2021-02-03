@@ -2,6 +2,7 @@ import React from 'react';
 import "./App.css";
 import "./index.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import pdf from "../static/resume.pdf";
 
 import email from "../images/ic_email.png";
 import twitter from "../images/ic_twitter.png";
@@ -14,7 +15,7 @@ const Footer = () => {
     <section className="footer">
       <div className={'contacts-contents-container'}>
         <div className={'contacts-social-container'}>
-          <a href="./resume.pdf" target="_blank" rel="noopener noreferrer"><img src={resume} className={'contact-social-img'} alt="" /></a>
+          <a href={pdf} target="_blank" rel="noopener noreferrer"><img src={resume} className={'contact-social-img'} alt="" /></a>
           <a href="mailto:nguyendm77@gmail.com" target="_blank" rel="noopener noreferrer"><img src={email} className={'contact-social-img'} alt="" /></a>
           <a href="https://www.linkedin.com/in/minh-nguyen-292b4976/" target="_blank" rel="noopener noreferrer"><img src={linkedin} className={'contact-social-img'} alt="" /></a>
           <a href="https://github.com/minhd-nguyen" target="_blank" rel="noopener noreferrer"><img src={github} className={'contact-social-img'} alt="" /></a>
